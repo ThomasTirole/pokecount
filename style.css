@@ -37,3 +37,45 @@ button {
 #sauvegarder-btn {
     background: #7AC74C;
 }
+
+#reset-btn {
+    background: #222222;
+    color: #F2F2F2;
+}
+
+/* style basique pour le tableau et centré horizontalement avec bordures entre les cellules et autour du tableau*/
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+td, th {
+    border: 1px solid #222222;
+    padding: 10px;
+    text-align: center;
+}
+/* style pour les cellules de la table */
+td {
+    background-color: #F2F2F2;
+    color: #222222;
+}
+th {
+    background-color: #7AC74C;
+    color: white;
+}
+
+.supprimer-btn {
+    background: #EE1C24;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.supprimer-btn:hover {
+    background: #b31318;
+}
+
+
