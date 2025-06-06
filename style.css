@@ -37,3 +37,8 @@ button {
 #sauvegarder-btn {
     background: #7AC74C;
 }
+
+#reset-btn {
+    background: #222222;
+    color: #F2F2F2;
+}
